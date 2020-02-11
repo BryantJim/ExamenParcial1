@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExamenParcial1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Tienda Productos" Height="450" Width="800">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFEDF5EF"/>
+                <GradientStop Color="#FFCB9BEC" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="99*"/>
+            <RowDefinition Height="118*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="RegistrarButton" Content="Registrar" HorizontalAlignment="Left" Margin="267,86,0,0" VerticalAlignment="Top" FontSize="48" Click="RegistrarButton_Click" BorderThickness="1,1,1,1" Width="273" HorizontalContentAlignment="Center" OpacityMask="#FFFBFBFB" Background="White" />
 
     </Grid>
 </Window>
