@@ -120,7 +120,7 @@ namespace ExamenParcial1.UI
             {
                 if (!ExisteEnLaBaseDeDatos())
                 {
-                    MessageBox.Show("No se puede Modificar una persona que no existe");
+                    MessageBox.Show("No se puede Modificar una producto que no existe");
                     return;
                 }
                 paso = ProductosBLL.Modificar(producto);
